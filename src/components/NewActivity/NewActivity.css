@@ -1,0 +1,39 @@
+.new-activity {
+  background-color: #eab543;
+  padding: 16px;
+  margin: 32px auto;
+  width: 800px;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(144, 70, 29, 0.25);
+  color: rgb(48, 47, 47);
+}
+
+.new-activity button {
+  font: inherit;
+  cursor: pointer;
+  padding: 16px 32px;
+  border: 1px solid #41bdb7;
+  background-color: #079992;
+  color: white;
+  border-radius: 12px;
+  margin-right: 16px;
+}
+
+.new-activity button:hover,
+.new-activity button:active {
+  background-color: #106f6a;
+  border-color: #06716b;
+}
+
+.new-activity button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-activity button.alternative:hover,
+.new-activity button.alternative:active {
+  background-color: #ddb3f8;
+}

@@ -1,0 +1,26 @@
+.new-activity__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.new-activity__control label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.new-activity__control input {
+  font: inherit;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 320px;
+  max-width: 100%;
+}
+
+.new-activity__actions {
+  text-align: right;
+}
